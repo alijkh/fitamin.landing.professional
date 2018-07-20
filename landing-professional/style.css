@@ -1,0 +1,110 @@
+body{
+	color: #eee;
+	font-family: iransans;
+}
+.professional{
+		height: 100vh;
+		overflow: hidden;
+		background-image: url('../images/cld2.png');
+		background-position: bottom;
+		z-index: 22;
+		background-size: cover;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+h2{
+	text-align: right;
+  padding: 2em 2.5em 1em 0;
+  color: #f6d001;
+}
+
+li p , li span{
+	display: inline-block;
+}
+
+.top-box p::before {
+	content: url('../images/itemsicon.png');
+	display: inline-block;
+	width: 50px;float: right;
+}
+
+.top-box::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: block;
+  background-color: #010101c7;
+}
+
+.top-box{
+	background-image: url('../images/couple.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	position: relative;
+}
+
+
+.top-box p{
+	line-height: 50px;
+	margin-bottom: 0;
+}
+
+a{
+	background-color: #f6d001;
+	padding: 1em!important;
+	display: block!important;
+	margin: 0 auto;
+	float: initial!important;
+	color: #000;
+}
+
+ .hr{
+ 	height: 5px;background: #f6d001;
+ }
+
+.man img{
+	float: right;
+	z-index: 2;
+}
+
+.bottom-box{
+  padding-top: 3em;
+  background-image: url('../images/texture.png');
+  height: 100%;
+  background-size: 100%;
+  background-repeat: repeat;
+  background-color: #000000cc;
+}
+
+.bottom-box .row div{
+ 	margin:2em 0;
+}
+
+.bottom-box p{
+	padding: 1em 0;
+}
+@media screen and (max-width: 1200px) {
+	.top-box {
+    background-size: cover;
+	}
+	.professional {
+    height: 100%;
+     overflow: initial;
+   }
+}
+@media screen and (max-width: 600px) {
+	.top-box {
+		background-image: none;
+		background-color: #010101;
+	}
+	h2{
+		font-size:;
+	}
+}
